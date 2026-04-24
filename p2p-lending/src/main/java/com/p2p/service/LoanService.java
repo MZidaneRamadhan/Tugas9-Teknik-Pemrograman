@@ -1,10 +1,18 @@
 package com.p2p.service;
 
 import com.p2p.domain.*;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.math.BigDecimal;
 
 public class LoanService {
+    
+    private static final Logger logger = LogManager.getLogger(LoanService.class);
+
     public Loan createLoan(Borrower borrower, BigDecimal amount) {
+        logger.info("Memulai proses pengajuan pinjaman...");
+        logger.debug("Borrower verified: {}, Credit Score: {}, Amount: {}",
+                borrower.isVerified(), borrower.getCreditScore(), amount);
 
         validateBorrower(borrower);
         validateAmount(amount);
@@ -12,8 +20,10 @@ public class LoanService {
         Loan loan = new Loan();
         if (validateCreditScore(borrower)) {
             loan.approve();
+            logger.info("Pinjaman DISETUJUI. Credit score: {}", borrower.getCreditScore());
         } else {
             loan.reject();
+            logger.warn("Pinjaman DITOLAK. Credit score: {}", borrower.getCreditScore());
         }
 
         return loan;

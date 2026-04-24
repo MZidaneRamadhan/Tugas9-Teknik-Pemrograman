@@ -1,67 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.p2p.LoanServiceTest" time="0.128" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.p2p.LoanServiceTest" time="0.268" tests="4" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="25"/>
+    <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\mzida\Kuliah\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending\target\test-classes;C:\Users\mzida\Kuliah\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending\target\classes;C:\Users\mzida\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mzida\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mzida\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\mzida\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\mzida\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\mzida\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\mzida\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mzida\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\mzida\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\mzida\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
-    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.class.path" value="C:\Users\muham\OneDrive\Documents\Kuliah\Semester 2\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending\target\test-classes;C:\Users\muham\OneDrive\Documents\Kuliah\Semester 2\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending\target\classes;C:\Users\muham\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\muham\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\muham\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\muham\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\muham\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\muham\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\muham\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\muham\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\muham\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\muham\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\muham\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\muham\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;"/>
+    <property name="java.vm.vendor" value="OpenLogic"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
-    <property name="java.vendor.url" value="https://adoptium.net/"/>
-    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vendor.url" value="https://openlogic.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="25"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="user.country" value="US"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\mzida\AppData\Local\Temp\surefire8863655966214877757\surefirebooter-20260423154035429_3.jar C:\Users\mzida\AppData\Local\Temp\surefire8863655966214877757 2026-04-23T15-40-35_242-jvmRun1 surefire-20260423154035429_1tmp surefire_0-20260423154035429_2tmp"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="C:\openjdk-17.0\bin"/>
+    <property name="sun.java.command" value="C:\Users\muham\AppData\Local\Temp\surefire3526537577906448299\surefirebooter-20260423222406324_3.jar C:\Users\muham\AppData\Local\Temp\surefire3526537577906448299 2026-04-23T22-24-06_177-jvmRun1 surefire-20260423222406324_1tmp surefire_0-20260423222406324_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\mzida\Kuliah\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending\target\test-classes;C:\Users\mzida\Kuliah\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending\target\classes;C:\Users\mzida\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\mzida\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\mzida\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\mzida\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\mzida\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\mzida\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\mzida\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mzida\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\mzida\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\mzida\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\muham\OneDrive\Documents\Kuliah\Semester 2\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending\target\test-classes;C:\Users\muham\OneDrive\Documents\Kuliah\Semester 2\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending\target\classes;C:\Users\muham\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\muham\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\muham\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\muham\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\muham\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\muham\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\muham\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\muham\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\muham\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\muham\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;C:\Users\muham\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\muham\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\mzida"/>
+    <property name="user.home" value="C:\Users\muham"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2026-01-20"/>
-    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot"/>
+    <property name="java.home" value="C:\openjdk-17.0"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\mzida\Kuliah\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending"/>
+    <property name="basedir" value="C:\Users\muham\OneDrive\Documents\Kuliah\Semester 2\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\mzida\AppData\Local\Temp\surefire8863655966214877757\surefirebooter-20260423154035429_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\muham\AppData\Local\Temp\surefire3526537577906448299\surefirebooter-20260423222406324_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="25.0.2+10-LTS"/>
-    <property name="user.name" value="mzida"/>
-    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.runtime.version" value="17.0.18+8-adhoc..jdk17u"/>
+    <property name="user.name" value="muham"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="java.vendor.version" value="Temurin-25.0.2+10"/>
-    <property name="localRepository" value="C:\Users\mzida\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
-    <property name="java.io.tmpdir" value="C:\Users\mzida\AppData\Local\Temp\"/>
-    <property name="java.version" value="25.0.2"/>
-    <property name="user.dir" value="C:\Users\mzida\Kuliah\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending"/>
+    <property name="java.vendor.version" value="OpenLogic-OpenJDK"/>
+    <property name="localRepository" value="C:\Users\muham\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://techsupport.roguewave.com/"/>
+    <property name="java.io.tmpdir" value="C:\Users\muham\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.18"/>
+    <property name="user.dir" value="C:\Users\muham\OneDrive\Documents\Kuliah\Semester 2\Teknik Pemrograman\Pr\Tugas9-Teknik-Pemrograman\p2p-lending"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\mzida\.vscode\extensions\vadimcn.vscode-lldb-1.12.1\bin;c:\Users\mzida\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\mzida\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\mzida\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-25.0.2.10-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\mzida\AppData\Local\Microsoft\WindowsApps\python.exe;C:\msys64\ucrt64\bin;C:\Program Files\apache-maven-3.9.15\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\Users\mzida\AppData\Local\Microsoft\WindowsApps\python.exe;C:\msys64\ucrt64\bin;C:\Users\mzida\AppData\Local\Programs\Python\Launcher\;C:\Users\mzida\AppData\Local\Microsoft\WindowsApps;C:\Users\mzida\AppData\Local\Programs\Microsoft VS Code\bin;C:\xampp\php;C:\php;C:\Users\mzida\AppData\Roaming\Composer\vendor\bin;C:\Users\mzida\AppData\Roaming\npm;C:\msys64\ucrt64\bin;C:\Users\mzida\Downloads\Program\openlogic-openjdk-17.0.18+8-windows-x64\bin;C:\Program Files\apache-maven-3.9.15\bin;c:\Users\mzida\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.library.path" value="C:\openjdk-17.0\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\muham\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\muham\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;c:\Users\muham\.vscode\extensions\vadimcn.vscode-lldb-1.12.1\bin;C:\Users\muham\AppData\Local\Programs\Microsoft VS Code;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\xampp\php-8.2.28;C:\Program Files\Go\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.15-bin\maven\bin;C:\Users\muham\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\muham\AppData\Local\Programs\Python\Python314\;C:\Users\muham\AppData\Local\Programs\Python\Launcher\;C:\Users\muham\AppData\Local\Microsoft\WindowsApps;C:\Users\muham\go\bin;C:\Users\muham\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\muham\AppData\Roaming\Composer\vendor\bin;C:\Users\muham\AppData\Roaming\npm;C:\msys64\ucrt64\bin;C:\Program Files\PostgreSQL\18\bin;C:\xampp\php;C:\openjdk-17.0\bin;c:\Users\muham\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="Cp1252"/>
-    <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="java.vm.version" value="25.0.2+10-LTS"/>
-    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="OpenLogic"/>
+    <property name="java.vm.version" value="17.0.18+8-adhoc..jdk17u"/>
+    <property name="java.specification.maintenance.version" value="1"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="69.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="shouldRejectLoanWhenCreditScoreLow" classname="com.p2p.LoanServiceTest" time="0.071"/>
-  <testcase name="shouldApproveLoanWhenCreditScoreHigh" classname="com.p2p.LoanServiceTest" time="0.002"/>
-  <testcase name="shouldRejectLoanWhenAmountIsZeroOrNegative" classname="com.p2p.LoanServiceTest" time="0.004"/>
-  <testcase name="shouldRejectLoanWhenBorrowerNotVerified" classname="com.p2p.LoanServiceTest" time="0.002"/>
+  <testcase name="shouldRejectLoanWhenCreditScoreLow" classname="com.p2p.LoanServiceTest" time="0.246"/>
+  <testcase name="shouldApproveLoanWhenCreditScoreHigh" classname="com.p2p.LoanServiceTest" time="0.001"/>
+  <testcase name="shouldRejectLoanWhenAmountIsZeroOrNegative" classname="com.p2p.LoanServiceTest" time="0.001"/>
+  <testcase name="shouldRejectLoanWhenBorrowerNotVerified" classname="com.p2p.LoanServiceTest" time="0.001"/>
 </testsuite>
